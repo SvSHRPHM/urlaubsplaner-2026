@@ -1,0 +1,20 @@
+{
+  "name": "urlaubsplaner-2026",
+  "version": "1.0.0",
+  "homepage": "https://DEIN-USERNAME.github.io/urlaubsplaner-2026",
+  "private": true,
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "lucide-react": "^0.263.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "deploy": "npm run build && gh-pages -d build"
+  },
+  "devDependencies": {
+    "react-scripts": "5.0.1",
+    "gh-pages": "^5.0.0"
+  }
+}
